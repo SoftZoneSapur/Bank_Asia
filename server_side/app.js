@@ -42,13 +42,13 @@ app.use(Limiter)
 
 
 // Mongo DB Database Connection 
-// let Url = "mongodb://127.0.0.1:27017"  // ToDo হচ্ছে মঙ্গোডিভি ডাটাবেসের নাম, যে আগেই তৈরি করে নিতে হবে। 
-// let OPTION = {username:"", password:""}
-// Mongose.connect(Url, OPTION(error)=>{
-//     console.log("Mongo DB Datbase Connection Success");
-//     console.log(error)
-// })
-// Mongose.connect(Url,(error)=>{
+// let Url = "mongodb+srv://<username>:<password>@softzone.piawnhh.mongodb.net/?retryWrites=true&w=majority"  // ToDo হচ্ছে মঙ্গোডিভি ডাটাবেসের নাম, যে আগেই তৈরি করে নিতে হবে। 
+// let OPTION={user:'softzone',pass:'softzone',autoIndex:true}
+// // Mongose.connect(Url, OPTION(error)=>{
+// //     console.log("Mongo DB Datbase Connection Success");
+// //     console.log(error)
+// // })
+// Mongose.connect(Url, OPTION,(error)=>{
 //     console.log("Mongo DB Datbase Connection Success");
 //     console.log(error)
 // })
