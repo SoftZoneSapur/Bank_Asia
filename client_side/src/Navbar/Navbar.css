@@ -1,18 +1,66 @@
 /* Top Navbar start  */
 .Top_Navbar{
     display: flex;
-    width: 100%;
     background-color: #c5c5c5;
     padding: 10px;
     font-size: 14px;
 }
 .Top_Navbar_Left_Side{
     width: 50%;
-    padding-left: 100px;
+    padding-left: 50px;
 }
 .Top_Navbar_Right_Side{
     width: 50%;
     text-align: right;
-    padding-right: 100px;
+    padding-right: 50px;
 }
 /* Top Navbar End  */
+
+
+/* Top Title Bar */
+.Top_Title_Bar{
+    display: flex;
+}
+.Top_Title_Bar_Left_Side{
+    width: 60%;
+    margin: 0;
+    margin-left: 50px;
+    padding-top: 15px;
+}
+.Top_Title_Bar_Right_Side_Agent_Logo{
+    margin-right: 20px;
+}
+.Top_Title_Bar_Right_Side_Gore_Bose_Account_Khulun_Image{
+    margin-right: 20px;
+    width: 100px;
+    height: 80px;
+}
+.Phon_Icon{
+    margin-right: 20px;
+    font-size: 50px;
+    color: #2261b0;
+}
+.Call_16205_Css{
+    font-size: 30px;
+    font-weight: bold;
+    color: #2261b0;
+}
+
+.Top_Title_Bar_Right_Side{
+    display: flex;
+    margin: 0;
+    margin-right: 50px;
+}
+
+/* End Top Title Bar */
+
+
+
+/* Top Menu Bar  */
+.Top_Menu_bar{
+    margin-left: 50px;
+}
+.Top_Menu_bar a{
+    padding: 10px;
+}
+/* End Top Menu Bar  */
