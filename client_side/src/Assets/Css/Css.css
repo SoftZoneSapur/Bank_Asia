@@ -1,0 +1,9 @@
+.Background_Image{
+    /* background-image: url("https://www.bankasia-bd.com/agentassets/slider/flash-1.jpg.gif"); */
+    /* background-image: url("https://cutewallpaper.org/21/white-background-gif/Abstract-Grey-DNA-Molecular-Structure-Animated-Background-.gif"); */
+    background-image: url(../Image/Background_Image.gif);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

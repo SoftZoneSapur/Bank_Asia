@@ -1,0 +1,8 @@
+.Section_2_Left_Side_Box{
+    background-color: yellow;
+    margin-left: 10px;
+    display: inline-block;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
