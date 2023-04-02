@@ -1,3 +1,10 @@
+.Section_2{
+    display: flex;
+    margin-top: 10px;
+}
+.Section_2_Left_Side{
+    width: 70%;
+}
 .Section_2_Left_Side_Box{
     background-color: yellow;
     margin-left: 10px;
@@ -5,4 +12,8 @@
     padding: 50px;
     text-align: center;
     border-radius: 10px;
+}
+.Section_2_Right_Side{
+    width: 30%;
+    margin-top: 0;
 }
