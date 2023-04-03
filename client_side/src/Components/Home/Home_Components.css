@@ -61,10 +61,16 @@
  /* section 3 start  */
 .Section_3{
     background-color: rgba(49, 95, 160, 1.0);
-    font-family: Nikosh;
-    color: white;
+    max-height: 100%;
+
 }
 .Section_3_Box{
-    
+    max-width: 120px;
+    min-height: 120px;
+    margin: 10px;
+    float: left;
+    background-color: rgba(155, 190, 240, 0.3);
+    padding: 20px 20px 20px 20px;
+    border: 1px solid #95b1d8 !important;
 }
  /* section 3 end  */
