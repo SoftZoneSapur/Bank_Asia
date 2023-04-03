@@ -62,7 +62,7 @@ const Home = () => {
                     <h3>এজেন্ট ব্যাংকিং</h3>
                     <p>এজেন্ট ব্যাংকিং বাংলাদেশের অর্থনৈতিক অন্তর্ভুক্তির অগ্রযাত্রায় একটি নতুন, শক্তিশালী এবং ব্যাপক-ভিত্তিক ব্যাংকিং প্রচেষ্টা। ব্যাংক এশিয়ার উদ্যোগে ২০১৪ সালের জানুয়ারীতে বাংলাদেশে এ সেবার যাত্রা শুরু হয়। এর আগে ২০১৩ সালে বাংলাদেশ ব্যাংক এ বিশেষায়িত ব্যাংকিং সেবা পরিচালনার অনুমতি প্রদান করে। মাত্র ক’বছরের ব্যবধানে এ সুদূর প্রসারী উদ্যোগ নানা দিকে, বিচিত্র আঙ্গিকে শাখা মেলতে শুরু করেছে। সময় এবং দূরত্বের ব্যবধান ঘুচিয়ে এ সেবা গ্রামীন জনগোষ্ঠীর কাছে হৃদয়গ্রাহী হয়ে উঠছে। তাদের ক্ষুদ্র সঞ্চয় ব্যাংকিং চ্যানেলে জমা হয়ে গড়ে উঠছে সম্ভাবনাময় অর্থনীতির এক শক্তিশালী ভিত্তি। প্রাণ সঞ্চারিত হচ্ছে গ্রামীন অর্থনীতিতে। প্রান্তিক কৃষক, ক্ষুদ্র উদ্যোক্তা সহ সকলে এজেন্ট ব্যাংকিং মোবাইল অ্যাপস-এর কল্যানে সহজেই ঋণ সুবিধা পাচ্ছে। জনগণের দোরগোড়ায় দ্রুত এ সেবা পৌঁছে দিতে সরকারি, বেসরকারী বিভিন্ন উন্নয়ন সংস্থা এজেন্ট ব্যাংকিং উদ্যোগের সাথে সম্পৃক্ত হয়েছে।</p>
 
-                    <h3>WHERE WE ARE TODAY</h3>
+                    <h3>আজ আমরা যেখানে</h3>
 
                     <div className="Section_2_Left_Side_Box">৪,২৫০ + <br />সেভিং একাউন্ট</div>
                     <div className="Section_2_Left_Side_Box">১৫,০০ + <br /> ডিপিএস একাউন্ট</div>
@@ -123,28 +123,104 @@ const Home = () => {
             {/* end  section 2  */}
 
 
-            <div className='Section_3'>
+            <div className='Section_3 container'>
 
                 <h3>আমাদের সেবাসমূহ</h3>
-                {/* <div className="row"> */}
-                    <p className="Section_3_Box">ক্যাশ ডিপোজিট</p>
-                    <p className="Section_3_Box">নগদ টাকা উত্তোলন</p>
-                    <p className="Section_3_Box">নগদ টাকা স্থানান্তর</p>
-                    <p className="Section_3_Box">অভ্যন্তরীণ প্রেরিত অর্থ</p>
-                    <p className="Section_3_Box">ইউটিলিটি বিল পেমেন্ট</p>
-                    <p className="Section_3_Box">ইউটিলিটি বিল পেমেন্ট</p>
-                {/* </p> */}
+                <div className="row justify-content-md-center">
+                    <div className="col-md-2">
+                        <a className='Section_3_Box ' href=""> 
+                        <img src="https://www.bankasia-bd.com/agentassets/services-icon/pricesensetive.png" className="Section_3_Box_Img" alt="" /> <br /> 
+                        ক্যাশ ডিপোজিট  
+                        </a>   
+                    </div>
+                    
+                    <div className="col-md-2">
+                        <a className='Section_3_Box ' href=""> 
+                        <img src="https://www.bankasia-bd.com/agentassets/services-icon/pricesensetive.png" className="Section_3_Box_Img" alt="" /> <br /> 
+                        নগদ টাকা উত্তোলন  
+                        </a>   
+                    </div>
+                    
+                    <div className="col-md-2">
+                        <a className='Section_3_Box ' href=""> 
+                        <img src="https://www.bankasia-bd.com/agentassets/services-icon/taka-transfer.png" className="Section_3_Box_Img" alt="" /> <br /> 
+                        নগদ টাকা স্থানান্তর  
+                        </a>   
+                    </div>
+                    
+                    <div className="col-md-2">
+                        <a className='Section_3_Box ' href=""> 
+                        <img src="https://www.bankasia-bd.com/agentassets/services-icon/foreign-remitance.png" className="Section_3_Box_Img" alt="" /> <br /> 
+                        অভ্যন্তরীণ প্রেরিত অর্থ  
+                        </a>   
+                    </div>
+                    
+                    <div className="col-md-2">
+                        <a className='Section_3_Box ' href=""> 
+                        <img src="https://www.bankasia-bd.com/agentassets/services-icon/utility-bill.png" className="Section_3_Box_Img" alt="" /> <br /> 
+                        ইউটিলিটি বিল পেমেন্ট  
+                        </a>   
+                    </div>
+                    
+                    <div className="col-md-2">
+                        <a className='Section_3_Box ' href=""> 
+                        <img src="https://www.bankasia-bd.com/agentassets/services-icon/mobile-banking.png" className="Section_3_Box_Img" alt="" /> <br /> 
+                        ইউটিলিটি বিল পেমেন্ট  
+                        </a>   
+                    </div>
                 
-                {/* <p className="row"> */}
-                    <p className="Section_3_Box">ব্যালেন্স ইনকয়েরি</p>
-                    <p className="Section_3_Box">অ্যাকাউন্ট বিবৃতি (ক্ষুদ্র)</p>
-                    <p className="Section_3_Box">বীমা প্রিমিয়াম সংগ্রহ</p>
-                    <p className="Section_3_Box">এসএমই ঋণ প্রক্রিয়াকরণ</p>
-                    <p className="Section_3_Box">কৃষি ঋণ প্রক্রিয়াকরণ</p>
-                    <p className="Section_3_Box">ডেবিট / ক্রেডিট কার্ড কাগজ প্রক্রিয়াকরণ</p>
-                {/* </div> */}
 
             </div>
+
+
+                <div className="row justify-content-md-center">
+
+                    <div className="col-md-2">
+                        <a className='Section_3_Box ' href=""> 
+                            <img src="https://www.bankasia-bd.com/agentassets/services-icon/mobile-banking.png" className="Section_3_Box_Img" alt="" /> <br /> 
+                            ব্যালেন্স ইনকয়েরি  
+                        </a>   
+                    </div>
+                    
+                    <div className="col-md-2">
+                        <a className='Section_3_Box ' href=""> 
+                            <img src="https://www.bankasia-bd.com/agentassets/services-icon/account-statement.png" className="Section_3_Box_Img" alt="" /> <br /> 
+                            অ্যাকাউন্ট বিবৃতি (ক্ষুদ্র)  
+                        </a>   
+                    </div>
+                    
+                    <div className="col-md-2">
+                        <a className='Section_3_Box ' href=""> 
+                            <img src="https://www.bankasia-bd.com/agentassets/services-icon/insuranche-premium.png" className="Section_3_Box_Img" alt="" /> <br /> 
+                            বীমা প্রিমিয়াম সংগ্রহ  
+                        </a>   
+                    </div>
+                    
+                    <div className="col-md-2">
+                        <a className='Section_3_Box ' href=""> 
+                            <img src="https://www.bankasia-bd.com/agentassets/services-icon/sme.png" className="Section_3_Box_Img" alt="" /> <br /> 
+                            এসএমই ঋণ প্রক্রিয়াকরণ  
+                        </a>   
+                    </div>
+                    
+                    <div className="col-md-2">
+                        <a className='Section_3_Box ' href=""> 
+                            <img src="https://www.bankasia-bd.com/agentassets/services-icon/agri-loan.png" className="Section_3_Box_Img" alt="" /> <br /> 
+                            কৃষি ঋণ প্রক্রিয়াকরণ  
+                        </a>   
+                    </div>
+                    
+                    <div className="col-md-2">
+                        <a className='Section_3_Box ' href=""> 
+                            <img src="https://www.bankasia-bd.com/agentassets/services-icon/card_50x50.png" className="Section_3_Box_Img" alt="" /> <br /> 
+                            ডেবিট / ক্রেডিট কার্ড কাগজ প্রক্রিয়াকরণ  
+                        </a>   
+                    </div>
+                </div>
+
+            </div>
+
+
 
 
 

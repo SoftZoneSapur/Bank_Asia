@@ -60,17 +60,35 @@
 
  /* section 3 start  */
 .Section_3{
-    background-color: rgba(49, 95, 160, 1.0);
-    max-height: 100%;
-
+    background-color: rgb(49 95 160 / 87%);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: Nikosh;
+    box-shadow: 0px 1px 10px #084298;
+    border-radius: 10px;
 }
 .Section_3_Box{
-    max-width: 120px;
-    min-height: 120px;
-    margin: 10px;
-    float: left;
-    background-color: rgba(155, 190, 240, 0.3);
-    padding: 20px 20px 20px 20px;
+   background-color: rgba(155, 190, 240, 0.3);
+    padding: 20px;
     border: 1px solid #95b1d8 !important;
+    max-width: 200px;
+    display: block;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    transition: 700ms;
+}
+.Section_3_Box:hover{
+    background-color: rgb(84, 128, 190);
+    color: #ffd907 ;
+    padding: 25px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.682);
+}
+.Section_3_Box_Img{
+    margin-top: 12px;
+    margin-bottom: 10px;
 }
  /* section 3 end  */
