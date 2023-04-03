@@ -2,10 +2,16 @@ import React from 'react';
 
 import "./Home_Components.css"
 
+import Agent_Outlet_Map from "../../Assets/Image/agent-outlet_map.jpg"
+import new_account from "../../Assets/Image/new_account.jpg"
+import we_create_new_jobs from "../../Assets/Image/we_create_new_jobs.jpg"
+
+
 import {
     MDBCarousel,
     MDBCarouselItem,
   } from 'mdb-react-ui-kit';
+
 
   
 const Home = () => {
@@ -117,112 +123,212 @@ const Home = () => {
 
                 </div>
 
-
-
             </section>
             {/* end  section 2  */}
 
-
-            <div className='Section_3 container'>
+            {/* section 3 start  */}
+            <section className='Section_3 container'>
 
                 <h3>আমাদের সেবাসমূহ</h3>
                 <div className="row justify-content-md-center">
                     <div className="col-md-2">
-                        <a className='Section_3_Box ' href=""> 
+                        <a target="_blank" className='Section_3_Box ' href=""> 
                         <img src="https://www.bankasia-bd.com/agentassets/services-icon/pricesensetive.png" className="Section_3_Box_Img" alt="" /> <br /> 
                         ক্যাশ ডিপোজিট  
                         </a>   
                     </div>
                     
                     <div className="col-md-2">
-                        <a className='Section_3_Box ' href=""> 
+                        <a target="_blank" className='Section_3_Box ' href=""> 
                         <img src="https://www.bankasia-bd.com/agentassets/services-icon/pricesensetive.png" className="Section_3_Box_Img" alt="" /> <br /> 
                         নগদ টাকা উত্তোলন  
                         </a>   
                     </div>
                     
                     <div className="col-md-2">
-                        <a className='Section_3_Box ' href=""> 
+                        <a target="_blank" className='Section_3_Box ' href=""> 
                         <img src="https://www.bankasia-bd.com/agentassets/services-icon/taka-transfer.png" className="Section_3_Box_Img" alt="" /> <br /> 
                         নগদ টাকা স্থানান্তর  
                         </a>   
                     </div>
                     
                     <div className="col-md-2">
-                        <a className='Section_3_Box ' href=""> 
+                        <a target="_blank" className='Section_3_Box ' href=""> 
                         <img src="https://www.bankasia-bd.com/agentassets/services-icon/foreign-remitance.png" className="Section_3_Box_Img" alt="" /> <br /> 
                         অভ্যন্তরীণ প্রেরিত অর্থ  
                         </a>   
                     </div>
                     
                     <div className="col-md-2">
-                        <a className='Section_3_Box ' href=""> 
+                        <a target="_blank" className='Section_3_Box ' href=""> 
                         <img src="https://www.bankasia-bd.com/agentassets/services-icon/utility-bill.png" className="Section_3_Box_Img" alt="" /> <br /> 
                         ইউটিলিটি বিল পেমেন্ট  
                         </a>   
                     </div>
                     
                     <div className="col-md-2">
-                        <a className='Section_3_Box ' href=""> 
+                        <a target="_blank" className='Section_3_Box ' href=""> 
                         <img src="https://www.bankasia-bd.com/agentassets/services-icon/mobile-banking.png" className="Section_3_Box_Img" alt="" /> <br /> 
                         ইউটিলিটি বিল পেমেন্ট  
                         </a>   
                     </div>
                 
 
-            </div>
+                </div>
 
 
                 <div className="row justify-content-md-center">
 
                     <div className="col-md-2">
-                        <a className='Section_3_Box ' href=""> 
+                        <a target="_blank" className='Section_3_Box ' href=""> 
                             <img src="https://www.bankasia-bd.com/agentassets/services-icon/mobile-banking.png" className="Section_3_Box_Img" alt="" /> <br /> 
                             ব্যালেন্স ইনকয়েরি  
                         </a>   
                     </div>
                     
                     <div className="col-md-2">
-                        <a className='Section_3_Box ' href=""> 
+                        <a target="_blank" className='Section_3_Box ' href=""> 
                             <img src="https://www.bankasia-bd.com/agentassets/services-icon/account-statement.png" className="Section_3_Box_Img" alt="" /> <br /> 
                             অ্যাকাউন্ট বিবৃতি (ক্ষুদ্র)  
                         </a>   
                     </div>
                     
                     <div className="col-md-2">
-                        <a className='Section_3_Box ' href=""> 
+                        <a target="_blank" className='Section_3_Box ' href=""> 
                             <img src="https://www.bankasia-bd.com/agentassets/services-icon/insuranche-premium.png" className="Section_3_Box_Img" alt="" /> <br /> 
                             বীমা প্রিমিয়াম সংগ্রহ  
                         </a>   
                     </div>
                     
                     <div className="col-md-2">
-                        <a className='Section_3_Box ' href=""> 
+                        <a target="_blank" className='Section_3_Box ' href=""> 
                             <img src="https://www.bankasia-bd.com/agentassets/services-icon/sme.png" className="Section_3_Box_Img" alt="" /> <br /> 
                             এসএমই ঋণ প্রক্রিয়াকরণ  
                         </a>   
                     </div>
                     
                     <div className="col-md-2">
-                        <a className='Section_3_Box ' href=""> 
+                        <a target="_blank" className='Section_3_Box ' href=""> 
                             <img src="https://www.bankasia-bd.com/agentassets/services-icon/agri-loan.png" className="Section_3_Box_Img" alt="" /> <br /> 
                             কৃষি ঋণ প্রক্রিয়াকরণ  
                         </a>   
                     </div>
                     
                     <div className="col-md-2">
-                        <a className='Section_3_Box ' href=""> 
+                        <a target="_blank" className='Section_3_Box ' href=""> 
                             <img src="https://www.bankasia-bd.com/agentassets/services-icon/card_50x50.png" className="Section_3_Box_Img" alt="" /> <br /> 
                             ডেবিট / ক্রেডিট কার্ড কাগজ প্রক্রিয়াকরণ  
                         </a>   
                     </div>
                 </div>
 
-            </div>
+            </section>
+            {/* section 3 end  */}
+
+
+
+            {/* section 4 start  */}
+            <section className='Section_4 row'>
+                <h3>এজেন্ট আউটলেট অনুসন্ধান</h3>
+                <div className="Section_4_Left_Side col-md-6">
+                    <a className='' target="_blank" href="https://blue-number.carto.com/u/bluenumber/builder/9bc6dd79-12a8-4f6b-b0d2-fcbcf9942c3b/embed">
+                        <img className='Section_4_Left_Side_Image' src={Agent_Outlet_Map} alt="" />
+                    </a>
+                </div>
+                <div className="Section_4_Right_Side col-md-6">
+                    <p>সারাদেশে আমাদের <br />
+                    মোট এজেন্ট আউটলেটের সংখ্যা ৫,১২৯ টি</p>
+                    <a href="https://blue-number.carto.com/u/bluenumber/builder/9bc6dd79-12a8-4f6b-b0d2-fcbcf9942c3b/embed" target="_blank">
+                        <button className='Section_4_Right_Side_Button'>আমাদের এজেন্টগুলো খুঁজুন</button>
+                    </a>
+                </div>
+            </section>
+            {/* section 4 end  */}
+
+
+            {/* section 5 start */}
+            <section className='Section_5'>
+                <h3>এসডিজি (টেকসই উন্নয়ন লক্ষ্যমাত্রা) অর্জন</h3>
+                <div className="row justify-content-md-center">
+                    <div className="col-md-3">
+                        <div className="Section_5_Item">
+                            <a href="" target="_blank">
+                                <img src="https://www.bankasia-bd.com/agentassets/Acheive-icon/no-proverty.png" alt="" /> <br />
+                                <p>দারিদ্রতা মুক্তি</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div className="col-md-3">
+                        <div className="Section_5_Item">
+                            <a href="" target="_blank">
+                                <img src="https://www.bankasia-bd.com/agentassets/Acheive-icon/good-health.png" alt="" /> <br />
+                                <p>সুস্বাস্থ্য ও কল্যান</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div className="col-md-3">
+                        <div className="Section_5_Item">
+                            <a href="" target="_blank">
+                                <img src="https://www.bankasia-bd.com/agentassets/Acheive-icon/gender.png" alt="" /> <br />
+                                <p>লিঙ্গ সমতা</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div className="col-md-3">
+                        <div className="Section_5_Item">
+                            <a href="" target="_blank">
+                                    <img src="https://www.bankasia-bd.com/agentassets/Acheive-icon/work-deff.png" alt="" /> <br />
+                                    <p>সম্মানজনক কর্ম সংস্থান ও অর্থনৈতিকসমৃদ্ধি</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className="row justify-content-md-center">
+                    <div className="col-md-4">
+                        <div className="Section_5_Item">
+                            <a href="" target="_blank">
+                                <img src="https://www.bankasia-bd.com/agentassets/Acheive-icon/industry.png" alt="" /> <br />
+                                <p>শিল্প, উদ্ভাবন ও অবকাঠামো</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+                        <div className="Section_5_Item">
+                            <a href="" target="_blank">
+                                <img src="https://www.bankasia-bd.com/agentassets/Acheive-icon/reudce-inquality.png" alt="" /> <br />
+                                <p>বৈষম্য হ্রাস</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+                        <div className="Section_5_Item">
+                            <a href="" target="_blank">
+                                <img src="https://www.bankasia-bd.com/agentassets/Acheive-icon/participition.png" alt="" /> <br />
+                                <p>অংশীদারিত্ব</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {/* section 5 end  */}
 
 
 
 
+            {/* Section 6 start  */}
+            <section className='Section_6'>
+
+
+                <div className="Section_6_Top">
+                    <img className='img-fluid' src={new_account} alt="" />
+                </div>
+                <div className="Section_6_Bottom">
+                    <img className='img-fluid' src={we_create_new_jobs} alt="" />
+                </div>
+
+
+            </section>
+            {/* Section 6 end  */}
 
 
 
