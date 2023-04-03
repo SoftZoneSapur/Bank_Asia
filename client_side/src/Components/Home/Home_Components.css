@@ -1,19 +1,70 @@
+@font-face {
+    font-family: Nikosh;
+    src: url(../../Assets/Font/Nikosh.ttf);
+ }
+
+
+ /* section 2 start  */
 .Section_2{
-    display: flex;
+    /* display: flex; */
     margin-top: 10px;
+    font-family: Nikosh;
+    border-radius: 10px;
+    background-color: #ffffffba;
 }
 .Section_2_Left_Side{
-    width: 70%;
+    font-size: 16px;
+    text-align: justify;
 }
 .Section_2_Left_Side_Box{
-    background-color: yellow;
+    background-color: #ecc731;
     margin-left: 10px;
     display: inline-block;
-    padding: 50px;
+    padding: 20px;
     text-align: center;
     border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
 }
 .Section_2_Right_Side{
-    width: 30%;
+    /* width: 30%; */
     margin-top: 0;
+    background-color: #c1c1c1d4;
+    padding: 0px 10px 10px 10px;
+    border-radius: 10px;
 }
+.Section_2_Right_Side_Prosno{
+    color: white;
+    background-color: #5a5656;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+.Prosno_btn{
+    padding: 10px;
+    background-color: #ecc731;
+    border-radius: 10px;
+    border: 3px solid white;
+    transition: 700ms;
+}
+.Prosno_btn:hover{
+    padding: 12px;
+}
+ /* section 2 end  */
+
+
+
+
+
+
+ /* section 3 start  */
+.Section_3{
+    background-color: rgba(49, 95, 160, 1.0);
+    font-family: Nikosh;
+    color: white;
+}
+.Section_3_Box{
+    
+}
+ /* section 3 end  */
