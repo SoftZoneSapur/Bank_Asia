@@ -10,13 +10,13 @@ const Footer = () => {
             
         {/* Footer_Section_1 start  */}
         <div className="Footer_Section_1">
-            <img className='img-fluid' src={bottom_line} alt="" />
+            <img className='Footer_Section_1' src={bottom_line} alt="" />
         </div>
         {/* Footer_Section_1 end  */}
 
 
         {/* Footer_Section_2 start  */}
-        <div className="Footer_Section_2">
+        <section className="Footer_Section_2">
         <div className="row">
             <div className="col-md-3">
                 <div className="Footer_Section_2_Box">
@@ -65,12 +65,51 @@ const Footer = () => {
                     <ul class="footer_link_1 p-b-20">
                         <li><a href="https://www.bankasia-bd.com/about/sustainability_report">সাস্টেনিবিলিটি রিপোর্ট</a></li>
                     </ul>
+                    <img className='img-fluid' src="https://www.bankasia-bd.com/style/images/Materialiry-Disclosure-2019.jpg" alt="" />
                 </div>
             </div>
         </div>
-        </div>
+
+        <hr />
+
+
+            <div className="row">
+                <div className="col-md-9">
+                    <ul class="Footer_Section_2_footer_link">
+                        <li><a href="https://www.bankasia-bd.com/">হোম </a></li>
+                        <li><a href="https://www.bankasia-bd.com/about/newsletter">নিউজলেটার</a></li>
+                        <li><a href="https://mail.bankasia-bd.com/owa">ওয়েব মেইল</a></li>
+                        <li><a href="https://www.bankasia-bd.com/home/sitemap">সাইট ম্যাপ</a></li>
+                        <li><a href="https://www.bankasia-bd.com/about/contact">যোগাযোগ </a></li>
+                        <li><a href="http://www.bankasia-bd.com/old/">পুরানো ওয়েব সাইট	</a></li>
+                    </ul>
+                </div>
+                <div className="col-md-3">
+                    <div className="Footer_Section_2_social">
+                        <span> <i class="fa  fa-envelope Footer_Section_2_social_link"></i> </span>
+                        <span> <i class="fa  fa-facebook Footer_Section_2_social_link"></i> </span>
+                        <span> <i class="fa  fa-twitter Footer_Section_2_social_link"></i> </span>
+                        <span> <i class="fa  fa-youtube Footer_Section_2_social_link"></i> </span>
+                    </div>
+                </div>
+            </div>
+
+            <hr />
+
+
+
+            <div className="Footer_Section_2_Copy_Right_Site">
+                <p>© ২০১৮ ব্যাংক এশিয়া লিমিটেড - সাহাপুর ব্যাংক এশিয়া(এজেন্ট ব্যাংকিং)। সর্বস্বত্ব সংরক্ষিত. <br />
+                Development <a href="">Rasal Hossain </a></p>
+            </div>
+
+
+
+        </section>
         {/* Footer_Section_2 end  */}
 
+
+        
 
 
         </div>

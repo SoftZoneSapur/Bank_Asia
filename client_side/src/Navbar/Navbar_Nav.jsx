@@ -43,19 +43,31 @@ const Navbar_Nav = () => {
 
             {/* Top Title Bar */}
             <div className="Top_Title_Bar">
-                <div className="Top_Title_Bar_Left_Side">
-                    <img src={Bank_Asia_Logo} alt="Bank Asia Logo" />
-                </div>
-                <div className="Top_Title_Bar_Right_Side">
-                    <img className='Top_Title_Bar_Right_Side_Agent_Logo' src={Bank_Asia_Logo_Agent} alt="Bank Asia Agent Logo" />
-                    <img className='Top_Title_Bar_Right_Side_Gore_Bose_Account_Khulun_Image' src={Gore_Bose_Account_Khulun} alt="Gore Bose Account Khulun Image" />
-                    <div className="Phon_Icon">
-                        <i class="fa fa-phone"></i>
-                    </div>
-                    <div className="Call_16205">
-                        <span className='Call_16205_Css'>16205</span> <br /> <span>Help Line</span>
-                    </div>
-                </div>
+                {/* <div className="row">
+                    <div className="col-md-4"> */}
+                        <div className="Top_Title_Bar_Left_Side">
+                            <a href="/">
+                                <img src={Bank_Asia_Logo} alt="Bank Asia Logo" />
+                            </a>
+                        </div>
+                    {/* </div>
+                    <div className="col-md-8"> */}
+                        <div className="Top_Title_Bar_Right_Side">
+                            <a href="/">
+                                <img className='Top_Title_Bar_Right_Side_Agent_Logo' src={Bank_Asia_Logo_Agent} alt="Bank Asia Agent Logo" />
+                            </a>
+                            <a href="/">
+                                <img className='Top_Title_Bar_Right_Side_Gore_Bose_Account_Khulun_Image' src={Gore_Bose_Account_Khulun} alt="Gore Bose Account Khulun Image" />
+                            </a>
+                            <div className="Phon_Icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <div className="Call_16205">
+                                <span className='Call_16205_Css'>16205</span> <br /> <span>Help Line</span>
+                            </div>
+                        </div>
+                    {/* </div>
+                </div> */}
             </div>
             {/* End Top Title Bar */}
 
@@ -85,7 +97,7 @@ const Navbar_Nav = () => {
 
                 <Navbar bg="primary" variant="dark" expand="lg" >
                     <Container fluid>
-                        <Navbar.Brand href="#">Bank Asia || Shahapur Agent Bank</Navbar.Brand>
+                        <Navbar.Brand href="/">Bank Asia || Shahapur Agent Bank</Navbar.Brand>
                         <Navbar.Toggle aria-controls="navbarScroll" />
                         <Navbar.Collapse id="navbarScroll">
                         <Nav
@@ -93,20 +105,29 @@ const Navbar_Nav = () => {
                             style={{ maxHeight: '100px' }}
                             navbarScroll
                         >
-                            <Nav.Link href="#action1">Home</Nav.Link>
-                            <Nav.Link href="#action2">Link</Nav.Link>
+                            <Nav.Link href="/">Home</Nav.Link>
+                            <Nav.Link href="/About">About</Nav.Link>
                             <NavDropdown title="Link" id="navbarScrollingDropdown">
-                            <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action4">
-                                Another action
-                            </NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action5">
-                                Something else here
-                            </NavDropdown.Item>
+                                <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action4">
+                                        Another action
+                                    </NavDropdown.Item>
+                                <NavDropdown.Divider />
+                                    <NavDropdown.Item href="#action5">
+                                        Something else here
+                                    </NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link href="#" disabled>
-                            Link
+                            <Nav.Link href="/">
+                                Link
+                            </Nav.Link>
+                            <Nav.Link href="/">
+                                Link
+                            </Nav.Link>
+                            <Nav.Link href="/">
+                                Link
+                            </Nav.Link>
+                            <Nav.Link href="/" disabled>
+                                Link
                             </Nav.Link>
                         </Nav>
                         <Form className="d-flex">

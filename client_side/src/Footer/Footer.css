@@ -3,17 +3,20 @@
     src: url(../Assets/Font/Nikosh.ttf);
  }
 .Footer_Section_1{
-
+width: 100%;
 }
 
 
-
+/* Footer_Section_2 start  */
 .Footer_Section_2{
     background-color: #19478c;
     color: white;
     padding: 60px;
+    padding-bottom: 15px;
     font-family: Nikosh;
-    
+}
+.Footer_Section_2_Box ul{
+    padding: 0;
 }
 .footer_link_1{
     color: white;
@@ -27,3 +30,57 @@
     padding-bottom: 5px;
     text-decoration: none;
 }
+
+
+.Footer_Section_3{
+
+}
+.Footer_Section_2_footer_link{
+    padding: 10px 0px 0px 0px;
+}
+.Footer_Section_2_footer_link li{
+    display:inline
+
+}
+.Footer_Section_2_footer_link li a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.Footer_Section_2_social{
+
+}
+.Footer_Section_2_social_link{
+    padding: 10px;
+    background-color: #4267b2;
+    color: white;
+    border: 1px solid white;
+    margin: 3px;
+    border-radius: 5px;
+    transition: 700ms;
+}
+.Footer_Section_2_social_link:hover{
+    background-color: #4271cf;
+    box-shadow: 0px 1px 5px white;
+    padding: 12px;
+}
+
+
+
+.Footer_Section_2_Copy_Right_Site{
+    text-align: center;
+    padding-top: 20px;
+}
+.Footer_Section_2_Copy_Right_Site p a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 700ms;
+}
+.Footer_Section_2_Copy_Right_Site p a:hover{
+    color: rgb(10, 253, 2);
+    box-shadow: 0px 1px 5px white;
+    padding: 10px;
+    border-radius: 10px;
+}
+/* Footer_Section_2 end  */

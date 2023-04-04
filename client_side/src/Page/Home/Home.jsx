@@ -6,6 +6,7 @@ import Home_Components from '../../Components/Home/Home_Components';
 import Navbar_Nav from '../../Navbar/Navbar_Nav';
 
 import "../../Assets/Css/Css.css"
+import Footer from '../../Footer/Footer';
 
 const Home = () => {
     return (
@@ -21,9 +22,7 @@ const Home = () => {
 
 
 
-
-        
-
+            <Footer />
 
 
 
