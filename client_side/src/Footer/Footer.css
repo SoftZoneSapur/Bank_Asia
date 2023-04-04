@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Nikosh;
+    src: url(../Assets/Font/Nikosh.ttf);
+ }
+.Footer_Section_1{
+
+}
+
+
+
+.Footer_Section_2{
+    background-color: #19478c;
+    color: white;
+    padding: 60px;
+    font-family: Nikosh;
+    
+}
+.footer_link_1{
+    color: white;
+}
+.footer_link_1 li{
+    list-style: none;
+}
+.footer_link_1 li a{
+    color: white;
+    font-size: 14px;
+    padding-bottom: 5px;
+    text-decoration: none;
+}

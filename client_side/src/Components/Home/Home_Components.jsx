@@ -11,6 +11,7 @@ import {
     MDBCarousel,
     MDBCarouselItem,
   } from 'mdb-react-ui-kit';
+import Footer from '../../Footer/Footer';
 
 
   
@@ -331,7 +332,7 @@ const Home = () => {
             {/* Section 6 end  */}
 
 
-
+            <Footer />
 
 
         </div>
