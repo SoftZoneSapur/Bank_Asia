@@ -70,10 +70,10 @@ const Home = () => {
 
                     <h3>আজ আমরা যেখানে</h3>
 
-                    <div className="Section_2_Left_Side_Box">৪,২৫০ + <br />সেভিং একাউন্ট</div>
-                    <div className="Section_2_Left_Side_Box">১৫,০০ + <br /> ডিপিএস একাউন্ট</div>
-                    <div className="Section_2_Left_Side_Box">১,০০০ + <br /> এফডিআর একাউন্ট</div>
-                    <div className="Section_2_Left_Side_Box">৫০০ + <br /> কারেন্ট একাউন্ট</div>
+                    <div className="Section_2_Left_Side_Box">৩,৫০০ + <br />সেভিং একাউন্ট</div>
+                    <div className="Section_2_Left_Side_Box">১,০০০ + <br /> ডিপিএস একাউন্ট</div>
+                    <div className="Section_2_Left_Side_Box">৩০০ + <br /> এফডিআর একাউন্ট</div>
+                    <div className="Section_2_Left_Side_Box">৭৫ + <br /> কারেন্ট একাউন্ট</div>
                 
                 </div>
 
