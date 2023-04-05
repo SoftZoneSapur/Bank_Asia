@@ -7,3 +7,14 @@
     /* background-repeat: no-repeat; */
     background-size: cover;
 }
+/* About_backgrounf.jpg */
+
+.Background_Image_About{
+    /* background-image: url("https://www.bankasia-bd.com/agentassets/slider/flash-1.jpg.gif"); */
+    /* background-image: url("https://cutewallpaper.org/21/white-background-gif/Abstract-Grey-DNA-Molecular-Structure-Animated-Background-.gif"); */
+    background-image: url(../Image/About_backgrounf.jpg);
+    height: 100%;
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}

@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { useLocation } from "react-router-dom";
 import "./Navbar.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -27,6 +28,18 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 const Navbar_Nav = () => {
 
 
+    const myFunction =()=> {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+            // Active_Menu.className += " active"
+
+        } else {
+          x.className = "topnav";
+        }
+      }
+
+    
 
     return (
         <div>
@@ -47,20 +60,20 @@ const Navbar_Nav = () => {
                     <div className="col-md-4"> */}
                         <div className="Top_Title_Bar_Left_Side">
                             <a href="/">
-                                <img src={Bank_Asia_Logo} alt="Bank Asia Logo" />
+                                <img className='img-fluid' src={Bank_Asia_Logo} alt="Bank Asia Logo" />
                             </a>
                         </div>
                     {/* </div>
                     <div className="col-md-8"> */}
                         <div className="Top_Title_Bar_Right_Side">
                             <a href="/">
-                                <img className='Top_Title_Bar_Right_Side_Agent_Logo' src={Bank_Asia_Logo_Agent} alt="Bank Asia Agent Logo" />
+                                <img className='Top_Title_Bar_Right_Side_Agent_Logo img-fluid' src={Bank_Asia_Logo_Agent} alt="Bank Asia Agent Logo" />
                             </a>
                             <a href="/">
-                                <img className='Top_Title_Bar_Right_Side_Gore_Bose_Account_Khulun_Image' src={Gore_Bose_Account_Khulun} alt="Gore Bose Account Khulun Image" />
+                                <img className='Top_Title_Bar_Right_Side_Gore_Bose_Account_Khulun_Image img-fluid' src={Gore_Bose_Account_Khulun} alt="Gore Bose Account Khulun Image" />
                             </a>
-                            <div className="Phon_Icon">
-                                <i class="fa fa-phone"></i>
+                            <div className="Phon_Icon img-fluid">
+                                <i class="fa fa-phone img-fluid"></i>
                             </div>
                             <div className="Call_16205">
                                 <span className='Call_16205_Css'>16205</span> <br /> <span>Help Line</span>
@@ -74,26 +87,7 @@ const Navbar_Nav = () => {
 
 
             {/* Top Menu Bar  */}
-            <div className="Top_Menu_bar">
-                
-                {/* <ul className='Top_Menu_bar_ul'>
-                    <li className='Top_Menu_bar_ul_li'><a className='Top_Menu_bar_ul_li_a' href="#home">Home</a></li>
-                    <li className='Top_Menu_bar_ul_li'><a className='Top_Menu_bar_ul_li_a' href="#news">News</a></li>
-                    
-                    <li  className='Top_Menu_bar_ul_li dropdown'>
-
-                        <a href="javascript:void(0)" className="Top_Menu_bar_ul_li_a dropbtn">Dropdown ⮟</a>
-                        
-                        <div className="dropdown-content">
-                        <a className='Top_Menu_bar_ul_li_a' href="#">Link 1 🢒</a>
-                        <a className='Top_Menu_bar_ul_li_a' href="#">Link 2 🢒</a>
-                        <a className='Top_Menu_bar_ul_li_a' href="#">Link 3 🢒</a>
-                        </div>
-                        
-                    </li>
-                </ul> */}
-
-
+            {/* <div className="Top_Menu_bar">
 
                 <Navbar bg="primary" variant="dark" expand="lg" >
                     <Container fluid>
@@ -144,9 +138,26 @@ const Navbar_Nav = () => {
                 </Navbar>
                 
 
-            </div>
+            </div> */}
             {/* End Top Menu Bar  */}
 
+
+
+            {/* Responsive menu start */}
+            <div className="Responsive_Menu container">
+                <div className="topnav " id="myTopnav">
+                    {/* <a  href="#home" className="active">Home</a> */}
+                    <a  href="/" className=" ">Home</a>
+                    <a href="">Service</a>
+                    <a href="">News</a>
+                    <a href="act">Contact</a>
+                    <a href="About">About</a>
+                    <a id="Active" className=' icon' href="javascript:void(0);"  onClick={myFunction}>
+                        <i className="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+            {/* Responsive menu end */}
 
 
 

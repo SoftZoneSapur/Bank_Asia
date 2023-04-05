@@ -13,6 +13,14 @@ import Office_Image_bg_2 from "../../Assets/Image/Office_Image_bg_2.jpg"
 import Office_Image_bg_3 from "../../Assets/Image/Office_Image_bg_3.jpg"
 // carusal image size  width: 3.80in by height 7in
 
+// office image 
+import img_1 from "../../Assets/Image/All_Image/img_1.jpg"
+import img_2 from "../../Assets/Image/All_Image/img_2.jpg"
+import img_3 from "../../Assets/Image/All_Image/img_3.jpg"
+import img_4 from "../../Assets/Image/All_Image/img_4.jpg"
+import img_5 from "../../Assets/Image/All_Image/img_5.jpg"
+import img_6 from "../../Assets/Image/All_Image/img_6.jpg"
+
 // image end 
 
 
@@ -88,37 +96,55 @@ const Home = () => {
 
 
                 <div className="Section_2_Right_Side  col-md-4">
-                    <h3>সর্বশেষ সংবাদ</h3>
+                    <h3>জনপ্রিয় ফুটেজ</h3>
                     <hr />
                 <MDBCarousel showIndicators showControls fade>
                     <MDBCarouselItem
-                        className='w-100 d-block'
+                        className=' img-fluid w-100 d-block'
                         itemId={1}
-                        src='https://www.bankasia-bd.com/agentassets/slider/flash-1.jpg'
+                        src={img_1}
                         alt='...'
                     >
-                        <h5>First slide label</h5>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                     </MDBCarouselItem>
 
                     <MDBCarouselItem
-                        className='w-100 d-block'
+                        className=' img-fluid w-100 d-block'
                         itemId={2}
-                        src='https://www.bankasia-bd.com/agentassets/slider/flash-102.jpg'
+                        src={img_2}
                         alt='...'
                     >
-                        <h5>Second slide label</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </MDBCarouselItem>
 
                     <MDBCarouselItem
-                        className='w-100 d-block'
+                        className=' img-fluid w-100 d-block'
                         itemId={3}
-                        src='https://www.bankasia-bd.com/agentassets/slider/flash-3.jpg'
+                        src={img_3}
                         alt='...'
                     >
-                        <h5>Third slide label</h5>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </MDBCarouselItem>
+
+                    <MDBCarouselItem
+                        className=' img-fluid w-100 d-block'
+                        itemId={4}
+                        src={img_4}
+                        alt='...'
+                    >
+                    </MDBCarouselItem>
+
+                    <MDBCarouselItem
+                        className=' img-fluid w-100 d-block'
+                        itemId={5}
+                        src={img_5}
+                        alt='...'
+                    >
+                    </MDBCarouselItem>
+
+                    <MDBCarouselItem
+                        className=' img-fluid w-100 d-block'
+                        itemId={6}
+                        src={img_6}
+                        alt='...'
+                    >
                     </MDBCarouselItem>
 
                 
@@ -126,7 +152,7 @@ const Home = () => {
 
                 <div className="Section_2_Right_Side_Prosno">
                     <h3>আপনার প্রশ্ন আছে?</h3>
-                    <p>আমাদের প্রায়শই জিজ্ঞাসিত প্রশ্নাবলী পড়ুন</p>
+                    <p>আপনার যে কোন প্রশ্নের জন্য যোগাযোগ করুন</p>
                     <button className='Prosno_btn'>এখানে ক্লিক করুন ➲</button>
                 </div>
 
