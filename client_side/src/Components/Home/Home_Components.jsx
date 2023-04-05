@@ -2,9 +2,18 @@ import React from 'react';
 
 import "./Home_Components.css"
 
+// image  start
+
 import Agent_Outlet_Map from "../../Assets/Image/agent-outlet_map.jpg"
 import new_account from "../../Assets/Image/new_account.jpg"
 import we_create_new_jobs from "../../Assets/Image/we_create_new_jobs.jpg"
+
+import Office_Image_bg_1 from "../../Assets/Image/Office_Image_bg_1.jpg"
+import Office_Image_bg_2 from "../../Assets/Image/Office_Image_bg_2.jpg"
+import Office_Image_bg_3 from "../../Assets/Image/Office_Image_bg_3.jpg"
+// carusal image size  width: 3.80in by height 7in
+
+// image end 
 
 
 import {
@@ -24,7 +33,7 @@ const Home = () => {
                 <MDBCarouselItem
                     className='w-100 d-block'
                     itemId={1}
-                    src='https://www.bankasia-bd.com/agentassets/slider/flash-1.jpg'
+                    src={Office_Image_bg_1}
                     alt='...'
                 >
                     <h5>First slide label</h5>
@@ -34,7 +43,7 @@ const Home = () => {
                 <MDBCarouselItem
                     className='w-100 d-block'
                     itemId={2}
-                    src='https://www.bankasia-bd.com/agentassets/slider/flash-102.jpg'
+                    src={Office_Image_bg_2}
                     alt='...'
                 >
                     <h5>Second slide label</h5>
@@ -44,7 +53,7 @@ const Home = () => {
                 <MDBCarouselItem
                     className='w-100 d-block'
                     itemId={3}
-                    src='https://www.bankasia-bd.com/agentassets/slider/flash-3.jpg'
+                    src={Office_Image_bg_3}
                     alt='...'
                 >
                     <h5>Third slide label</h5>

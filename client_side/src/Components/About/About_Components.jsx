@@ -4,6 +4,8 @@ import ListGroup from 'react-bootstrap/ListGroup';
 
 import "./About.css"
 
+import BorhanUddinRaju from "../../Image/BorhanUddinRaju.jpg"
+
 const About_Components = () => {
     return (
         <div>
@@ -11,9 +13,9 @@ const About_Components = () => {
 
 
         <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src="https://media.licdn.com/dms/image/D4E03AQHg9Su2yM0DHA/profile-displayphoto-shrink_200_200/0/1665068469774?e=1683158400&v=beta&t=5vH6Oo8XsC1a7QvzmRRCk2uzRvhgycDvM6j34y0LCkQ" />
+        <Card.Img variant="top" src={BorhanUddinRaju} />
         <Card.Body>
-            <Card.Title>Rasel Hossain</Card.Title>
+            <Card.Title>Borhan Uddin Raju</Card.Title>
             <Card.Text>
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
