@@ -86,62 +86,6 @@ const Navbar_Nav = () => {
 
 
 
-            {/* Top Menu Bar  */}
-            {/* <div className="Top_Menu_bar">
-
-                <Navbar bg="primary" variant="dark" expand="lg" >
-                    <Container fluid>
-                        <Navbar.Brand href="/">Bank Asia || Shahapur Agent Bank</Navbar.Brand>
-                        <Navbar.Toggle aria-controls="navbarScroll" />
-                        <Navbar.Collapse id="navbarScroll">
-                        <Nav
-                            className="me-auto my-2 my-lg-0"
-                            style={{ maxHeight: '100px' }}
-                            navbarScroll
-                        >
-                            <Nav.Link href="/">Home</Nav.Link>
-                            <Nav.Link href="/About">About</Nav.Link>
-                            <NavDropdown title="Link" id="navbarScrollingDropdown">
-                                <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action4">
-                                        Another action
-                                    </NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                    <NavDropdown.Item href="#action5">
-                                        Something else here
-                                    </NavDropdown.Item>
-                            </NavDropdown>
-                            <Nav.Link href="/">
-                                Link
-                            </Nav.Link>
-                            <Nav.Link href="/">
-                                Link
-                            </Nav.Link>
-                            <Nav.Link href="/">
-                                Link
-                            </Nav.Link>
-                            <Nav.Link href="/" disabled>
-                                Link
-                            </Nav.Link>
-                        </Nav>
-                        <Form className="d-flex">
-                            <Form.Control
-                            type="search"
-                            placeholder="Search"
-                            className="me-2"
-                            aria-label="Search"
-                            />
-                            <Button variant="outline-success">Search</Button>
-                        </Form>
-                        </Navbar.Collapse>
-                    </Container>
-                </Navbar>
-                
-
-            </div> */}
-            {/* End Top Menu Bar  */}
-
-
 
             {/* Responsive menu start */}
             <div className="Responsive_Menu container">
@@ -155,7 +99,11 @@ const Navbar_Nav = () => {
                     <a id="Active" className=' icon' href="javascript:void(0);"  onClick={myFunction}>
                         <i className="fa fa-bars"></i>
                     </a>
+                    <div className="Office_Login">
+                        <a href="Office_Login">Office Login</a>
+                    </div>
                 </div>
+
             </div>
             {/* Responsive menu end */}
 

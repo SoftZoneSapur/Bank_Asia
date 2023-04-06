@@ -1,0 +1,24 @@
+.Office_Login{
+    /* display: flex; */
+    width: 100%;
+}
+.Office_Login_Left{
+    width: 70%;
+    float: left;
+    /* background-image: url(../../Assets/Image/Office_Login_Background.JPG); */
+    /* height: 1000px; */
+    background-size: cover;
+    background-position: center;
+}
+.Office_Login_Left img{
+    max-width: 100%;
+}
+.Office_Login_Right{
+    width: 30%;
+    float: right;
+    overflow: hidden;
+    display: block;
+    margin-top: 180px;
+    text-align: center;
+    padding: 30px;
+}

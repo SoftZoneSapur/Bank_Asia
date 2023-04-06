@@ -30,6 +30,21 @@ const About_Components = () => {
                                 <span>CEO (Bank Asia Agent Banking)</span> <br />
                                 {/* address  */}
                                 <span>Shahapur Bazar, Chatkhil, Noakhali</span>
+                                <div className="Email_And_Facebook">
+                                <a href="#" className="About_Icon fa fa-facebook"></a>
+                                <a href="#" className="About_Icon fa fa-twitter"></a>
+                                <a href="#" className="About_Icon fa fa-google"></a>
+                                <a href="#" className="About_Icon fa fa-linkedin"></a>
+                                <a href="#" className="About_Icon fa fa-youtube"></a>
+                                <a href="#" className="About_Icon fa fa-instagram"></a>
+                                <a href="#" className="About_Icon fa fa-pinterest"></a>
+                                </div>
+                                <div className="About_Phon_Number">
+                                    <a href="tel:01711055368">
+                                        <button class="fa fa-phone">01711055368</button>
+                                        <button class="fa fa-phone">01711055368</button>
+                                    </a>
+                                </div>
                             </div>
                         </div>
 

@@ -129,6 +129,10 @@ li.dropdown {
 /* Responsive menu start  */
 .Responsive_Menu{
     margin-top: 10px;
+    /* display: flex; */
+}
+.Office_Login{
+  float: right;
 }
 .topnav {
     overflow: hidden;

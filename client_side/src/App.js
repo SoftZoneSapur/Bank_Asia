@@ -4,6 +4,7 @@ import Home from "./Page/Home/Home";
 
 import "bootstrap"
 import About from './Page/About/About';
+import Office_Login from './Office_Login/Office_Login';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -24,6 +25,7 @@ function App() {
           <Routes>
               <Route path="*" element={<Home />}/>
               <Route path="About" element={<About />}/>
+              <Route path="Office_Login" element={<Office_Login />}/>
           </Routes>
       </BrowserRouter>
     </Fragment>
