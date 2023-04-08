@@ -101,6 +101,7 @@ const Navbar_Nav = () => {
                     </a>
                     <div className="Office_Login">
                         <a href="Office_Login">Office Login</a>
+                        <a href="Registration">Admin Registration</a>
                     </div>
                 </div>
 

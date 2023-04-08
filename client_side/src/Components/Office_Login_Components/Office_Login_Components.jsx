@@ -8,21 +8,29 @@ import Agent_Logo from "../../Assets/Image/Agent_Logo.jpg"
 const Office_Login_Components = () => {
     return (
         <div>
-            <div className="Office_Login">
+            <div className="Office_Login_Office_Side">
 
-                <div className="Office_Login_Left">
+                <div className="Office_Login_Office_Side_Left">
                     
                     <img src={Office_Login_Background} alt="" />
                 </div>
 
 
 
-                <div className="Office_Login_Right">
+                <div className="Office_Login_Office_Side_Right">
                     
                     <img className='img-fluid' src={Agent_Logo} alt="" />
-                    <input className='form-control' type="text" />
-                    <input className='form-control' type="password" />
-                    <button className='btn btn-info'>Login</button>
+                    <input placeholder='User ID' className='form-control' type="text" />
+                    <input placeholder='Password' className='form-control' type="password" />
+                    <button className='btn'>Login</button>
+                    <a href="Forgot_Password">Forgot Your Admin Password?</a>
+
+                    <div className="Office_Login_Office_Side_Other_Btn">
+                        <a href="/"><button className='btn'>Public Home</button></a>
+                        <a href="Registration"><button className='btn'>Admin Registration</button></a>
+                    </div>
+
+                    <p>©Copyright <b>Rasal Hossain</b>. All Rights reserved.</p>
                 
                 </div>
 

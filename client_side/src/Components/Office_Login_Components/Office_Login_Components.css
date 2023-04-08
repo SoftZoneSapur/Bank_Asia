@@ -1,24 +1,60 @@
-.Office_Login{
+.Office_Login_Office_Side{
     /* display: flex; */
     width: 100%;
 }
-.Office_Login_Left{
-    width: 70%;
+.Office_Login_Office_Side_Left{
+    width: 65%;
     float: left;
     /* background-image: url(../../Assets/Image/Office_Login_Background.JPG); */
     /* height: 1000px; */
     background-size: cover;
     background-position: center;
 }
-.Office_Login_Left img{
+.Office_Login_Office_Side_Left img{
     max-width: 100%;
+    height: 780px;
 }
-.Office_Login_Right{
-    width: 30%;
+.Office_Login_Office_Side_Right{
+    width: 35%;
     float: right;
     overflow: hidden;
     display: block;
-    margin-top: 180px;
+    margin-top: 150px;
     text-align: center;
     padding: 30px;
+}
+.Office_Login_Office_Side_Right input{
+    margin-top: 20px;
+    padding: 10px;
+}
+.Office_Login_Office_Side_Right button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #1d5ba6;
+    color: white;
+    transition: 700ms;
+}
+.Office_Login_Office_Side_Right button:hover{
+    background-color: #244873;
+    color:white
+}
+
+.Office_Login_Office_Side_Other_Btn{
+    display: flex;
+}
+
+.Office_Login_Office_Side_Other_Btn button{
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: #5479ab;
+}
+.Office_Login_Office_Side_Other_Btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.Office_Login_Office_Side_Right p{
+    margin-top: 160px;
 }
