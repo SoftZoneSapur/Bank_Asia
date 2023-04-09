@@ -22,7 +22,9 @@ const Office_Login_Components = () => {
                     <img className='img-fluid' src={Agent_Logo} alt="" />
                     <input placeholder='User ID' className='form-control' type="text" />
                     <input placeholder='Password' className='form-control' type="password" />
-                    <button className='btn'>Login</button>
+                    <a href="Office_Side_Home_Page">
+                        <button className='btn'>Login</button>
+                    </a>
                     <a href="Forgot_Password">Forgot Your Admin Password?</a>
 
                     <div className="Office_Login_Office_Side_Other_Btn">

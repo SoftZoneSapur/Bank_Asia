@@ -1,0 +1,81 @@
+.Office_Side_Navbar_Top{
+    display: flex;
+    background-color: #3067A9;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.Office_Side_Navbar_Top_Left{
+    width: 40%;
+    margin-left: 20px;
+}
+.Office_Side_Navbar_Top_Left a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+.Office_Side_Navbar_Top_Right{
+    width: 60%;
+    text-align: right;
+    margin-right: 50px;
+}
+
+
+.Office_Side_dropdown_btn{
+    margin-left: 30px;
+}
+
+
+
+
+
+
+/* User DropDawod Btn  start  */
+.Office_Side_dropbtn {
+    background-color: #3067a9;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .Office_Side_dropdown {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .Office_Side_dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .Office_Side_dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .Office_Side_dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .Office_Side_dropdown:hover .Office_Side_dropdown-content {
+    display: block;
+  }
+  
+  .Office_Side_dropdown:hover .Office_Side_dropbtn {
+    background-color: #245085;
+  }
+/* User DropDawod Btn  end  */

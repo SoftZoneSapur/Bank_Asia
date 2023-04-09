@@ -1,0 +1,58 @@
+.Office_Side{
+
+}
+.Office_Side_Left{
+    margin-top: 50px;
+}
+.Office_Side_Left_Box{
+    width: 70%;
+    box-shadow: 0px 1px 5px #333;
+    /* padding: 50px; */
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    background-image: url(https://i.pinimg.com/originals/83/a4/e4/83a4e4438553509325d352a78c6d781d.gif);
+}
+.Office_Side_Left_Box h3{
+    color: black;
+}
+.Office_Side_Left_Box p{
+    color: black;
+}
+.Office_Side_Left_Box img{
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+
+.Office_Side_Left_Box_Text{
+    display: flex;
+    background-color: #1E58A1;
+}
+.Office_Side_Left_Box_Text p{
+    border: 1px solid #adadad;
+    width: 100%;
+    margin: 0;
+    padding: 30px;
+    color: white;
+}
+
+
+
+
+
+.Office_Side_Right{
+    margin-top: 50px;
+
+}
+.Office_Side_Right_Box{
+    display: inline-block;
+}
+.Office_Side_Right_Box a{
+    padding: 50px;
+    background-color: white;
+    box-shadow: 0px 1px 5px #333;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+}

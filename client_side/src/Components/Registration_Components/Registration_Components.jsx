@@ -25,7 +25,7 @@ const Registration_Components = () => {
                         <Form>
                         <   Form.Group className="mb-3" >
                                 <Form.Label>Registration Code</Form.Label>
-                                <Form.Control type='text' placeholder="Registration Code" />
+                                <Form.Control type='password' placeholder="Registration Code" />
                             </Form.Group>
 
                             <Row className="mb-3">

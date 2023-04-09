@@ -1,0 +1,15 @@
+.Office_Side_Navbar_Two{
+    background-color: #032A63;
+    width: 100%;
+    height: 35px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.Office_Side_Navbar_Two a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.Office_Side_Navbar_Two a:hover{
+    color: #ffc107;
+}

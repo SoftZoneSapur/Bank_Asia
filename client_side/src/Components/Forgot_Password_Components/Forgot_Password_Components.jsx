@@ -9,15 +9,13 @@ const Forgot_Password_Components = () => {
                 <h3>Password Reset</h3>
                 <p>Enter your email address</p>
                 <input placeholder='Enter your email address' class="form-control my-3" type="email" />
-                <button className='btn btn-success'>Next</button>
+                <a href="OTP_Input">
+                    <button className='btn btn-success'>Next</button>
+                </a>
 
-                <div class="d-flex justify-content-between mt-4">
-                    {/* <button class="btn btn-info"> */}
+                <div class="d-flex Forgot_Password_Box_Other_btn justify-content-between mt-4">
                         <a class="btn btn-info mb-4" href="Office_Login">Login</a>
-                    {/* </button>
-                    <button class=" btn btn-info"> */}
                         <a class="btn btn-info mb-4" href="Registration">Register</a>
-                    {/* </button> */}
                 </div>
 
             </div>
