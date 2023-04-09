@@ -128,8 +128,10 @@ li.dropdown {
 
 /* Responsive menu start  */
 .Responsive_Menu{
-    margin-top: 10px;
-    /* display: flex; */
+  margin-top: 10px;
+  /* display: flex; */
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .Office_Login{
   float: right;

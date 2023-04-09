@@ -88,7 +88,7 @@ const Navbar_Nav = () => {
 
 
             {/* Responsive menu start */}
-            <div className="Responsive_Menu container">
+            <div className="Responsive_Menu">
                 <div className="topnav " id="myTopnav">
                     {/* <a  href="#home" className="active">Home</a> */}
                     <a  href="/" className=" ">Home</a>
