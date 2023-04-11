@@ -10,6 +10,7 @@ import Forgot_Password from './Page/Forgot_Password/Forgot_Password';
 import OTP_Input from './Components/Forgot_Password_Components/OTP_Input';
 import New_Password from './Components/Forgot_Password_Components/New_Password';
 import Office_Side_Home_Page from './Page/Office_Side_Home_Page/Office_Side_Home_Page';
+import Account_Print_Page from './Page/Account_Print_Page/Account_Print_Page';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -29,6 +30,7 @@ function App() {
               <Route path="New_Password" element={<New_Password />}/>
 
               <Route path="Office_Side_Home_Page" element={<Office_Side_Home_Page />}/>
+              <Route path="Account_Print_Page" element={<Account_Print_Page />}/>
           </Routes>
       </BrowserRouter>
     </Fragment>

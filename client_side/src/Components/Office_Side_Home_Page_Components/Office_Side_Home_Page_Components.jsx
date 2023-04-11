@@ -29,10 +29,10 @@ const Office_Side_Home_Page_Components = () => {
                 <div className="Office_Side_Right col-md-7">
 
                     <div className="Office_Side_Right_Box">
-                        <a href="Account_Print">Account Print</a>
+                        <a href="Account_Print_Page">Account Print</a>
                     </div>
                     <div className="Office_Side_Right_Box">
-                        <a href="">Service Name</a>
+                        <a target="_blank" href="https://bank-asia-shahapur-bazar.netlify.app/">টেম্পোরারি একাউন্ট প্রিন্ট</a>
                     </div>
                     <div className="Office_Side_Right_Box">
                         <a href="">Service Name</a>

@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 import "./Home_Components.css"
 
 // image  start
@@ -29,9 +30,10 @@ import {
     MDBCarouselItem,
   } from 'mdb-react-ui-kit';
 
-
   
 const Home = () => {
+
+
     return (
         <div className='container'>
 
@@ -95,7 +97,7 @@ const Home = () => {
                 </div>
 
 
-                <div className="Section_2_Right_Side  col-md-4">
+                <div  className="Section_2_Right_Side  col-md-4">
                     <h3>জনপ্রিয় ফুটেজ</h3>
                     <hr />
                 <MDBCarousel showIndicators showControls fade>
