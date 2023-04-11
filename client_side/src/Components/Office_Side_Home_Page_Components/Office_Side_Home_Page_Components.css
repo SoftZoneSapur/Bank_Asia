@@ -20,6 +20,7 @@
     color: black;
 }
 .Office_Side_Left_Box img{
+    max-width: 50%;
     margin-top: 10px;
     border-radius: 50%;
 }
