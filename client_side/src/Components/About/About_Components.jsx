@@ -4,7 +4,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 import "../../Assets/Css/Css.css"
 import "./About.css"
 
-import BorhanUddinRaju from "../../Image/BorhanUddinRaju.jpg"
+import BorhanUddinRaju from "../../Assets/Image/Office_Image_bg_1.jpg"
 
 const About_Components = () => {
     return (
