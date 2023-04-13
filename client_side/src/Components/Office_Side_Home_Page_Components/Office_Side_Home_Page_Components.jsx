@@ -29,7 +29,7 @@ const Office_Side_Home_Page_Components = () => {
                 <div className="Office_Side_Right col-md-7">
 
                     <div className="Office_Side_Right_Box">
-                        <a href="Account_Print_Page">Account Print</a>
+                        <a target="_blank" href="https://bank-asia-account-print.netlify.app/">Account Print</a>
                     </div>
                     <div className="Office_Side_Right_Box">
                         <a target="_blank" href="https://bank-asia-shahapur-bazar.netlify.app/">টেম্পোরারি একাউন্ট প্রিন্ট</a>
@@ -47,7 +47,7 @@ const Office_Side_Home_Page_Components = () => {
                         <a href="">Service Name</a>
                     </div>
                     <div className="Office_Side_Right_Box">
-                        <a href="">Service Name</a>
+                        <a href="/">Public Home</a>
                     </div>
 
                 </div>
