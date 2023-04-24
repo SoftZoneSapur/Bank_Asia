@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.019eb3e9.css",
+    "main.js": "/static/js/main.b71d4a28.js",
+    "static/media/Background_Image.gif": "/static/media/Background_Image.2c8965e26429e7a85318.gif",
+    "static/media/About_backgrounf.jpg": "/static/media/About_backgrounf.7bce22134fb4bc67ce81.jpg",
+    "static/media/img_1.jpg": "/static/media/img_1.d8407d7b8337e7c4af29.jpg",
+    "static/media/img_5.jpg": "/static/media/img_5.9bfdf0871c7c82c15059.jpg",
+    "static/media/img_4.jpg": "/static/media/img_4.23aea8bc8a3266675cfc.jpg",
+    "static/media/img_2.jpg": "/static/media/img_2.5b951ec3c8bb60fa7530.jpg",
+    "static/media/img_6.jpg": "/static/media/img_6.8561f97221242772bb6c.jpg",
+    "static/media/img_3.jpg": "/static/media/img_3.0dde351bd4e3495e417e.jpg",
+    "static/media/Office_Image_bg_3.jpg": "/static/media/Office_Image_bg_3.d720be6fe1d73f03b1e9.jpg",
+    "static/media/Office_Image_bg_2.jpg": "/static/media/Office_Image_bg_2.04c506fb58885703cd4a.jpg",
+    "static/media/Office_Image_bg_1.jpg": "/static/media/Office_Image_bg_1.cda78ebf144f5ce6f06f.jpg",
+    "static/media/Nikosh.ttf": "/static/media/Nikosh.b20460f983aedd1521b9.ttf",
+    "static/media/agent-outlet_map.jpg": "/static/media/agent-outlet_map.ab9c708f545ce983668d.jpg",
+    "static/media/we_create_new_jobs.jpg": "/static/media/we_create_new_jobs.255773fb4adab38c5151.jpg",
+    "static/media/new_account.jpg": "/static/media/new_account.c987d6620c449ce9f8a4.jpg",
+    "static/media/Office_Login_Background.JPG": "/static/media/Office_Login_Background.ad3a51e91019bf5079c1.JPG",
+    "static/media/agent-banking2.png": "/static/media/agent-banking2.c33b586fdff83042d6ee.png",
+    "static/media/Agent_Logo.jpg": "/static/media/Agent_Logo.6ce24644fa32d07147d9.jpg",
+    "static/media/bank_asia_logo.jpg": "/static/media/bank_asia_logo.077469325dc6ccf4ce8f.jpg",
+    "index.html": "/index.html",
+    "main.019eb3e9.css.map": "/static/css/main.019eb3e9.css.map",
+    "main.b71d4a28.js.map": "/static/js/main.b71d4a28.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.019eb3e9.css",
+    "static/js/main.b71d4a28.js"
+  ]
+}
