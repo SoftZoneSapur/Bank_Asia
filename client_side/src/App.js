@@ -11,7 +11,10 @@ import OTP_Input from './Components/Forgot_Password_Components/OTP_Input';
 import New_Password from './Components/Forgot_Password_Components/New_Password';
 import Office_Side_Home_Page from './Page/Office_Side_Home_Page/Office_Side_Home_Page';
 import Account_Print_Page from './Page/Account_Print_Page/Account_Print_Page';
-// import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+// verificationCodeMobile
+// verificationMobile
 
 
 
